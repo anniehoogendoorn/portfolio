@@ -86,3 +86,57 @@ body {
   border-width: 2px !important;
   padding: 10px 25px;
 }
+
+/*======PORTFOLIO==========*/
+
+@import "compass/css3";
+
+#showcase {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: grey;
+  padding: 5px;
+  width: 250px;
+  height: 150px;
+  margin-top: 10px;
+  border: 1px solid #333;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/*======FOOTER STUFF==========*/
+.custom-footer {
+  width: 100%;
+  height: 30px;
+  /*position: bottom-fixed;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -80px;
+  /*bottom:0;*/
+  /*left: 0;*/
+    vertical-align: baseline;
+  background: #FF921C;
+}
