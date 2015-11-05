@@ -1,0 +1,88 @@
+/* BODY */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+/* HEADER */
+.navbar {
+  background: #FFF;
+  height: 50px;
+  border: none;
+}
+
+.navbar-brand {
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left:
+}
+
+.navbar-default .navbar-nav {
+  margin-top: 10px;
+}
+
+.navbar-default .navbar-nav li a {
+  text-transform: uppercase;
+  color: #4e5763;
+  font-size: 14px;
+  transition: all .2s linear;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #008bcb;
+  font-size: 14px;
+}
+
+.btn-warning.navbar-btn {
+    color: #fff !important;
+    text-transform: none !important;
+    background-color: #f77d0e !important;
+    padding: 6px 13px !important;
+    font-size: 14px !important;
+    border-radius: 3px;
+}
+
+.btn-warning.navbar-btn:hover {
+  background-color: #ec7508 !important;
+}
+
+/* HOME BANNER */
+
+#home-banner {
+  background: url("img/bg-nasa.jpg") no-repeat center center #0e4369;
+  animation: slidefade3 22s infinite;
+  -o-animation: slidefade3 22s infinite;
+  -moz-animation: slidefade3 22s infinite;
+  -webkit-animation: slidefade3 22s infinite;
+  background-size: cover;
+}
+
+#home-banner h1, p {
+  color: white;
+}
+
+#home-banner h1 {
+  font-size: 3.4em;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+#home-banner p {
+  font-size: 1.5em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+#home-banner-content {
+  position: relative;
+  padding: 10% 70px;
+}
+#home-banner-content .btn {
+  color: white;
+  background-color: transparent !important;
+  margin-right: 10px;
+  border-width: 2px !important;
+  padding: 10px 25px;
+}

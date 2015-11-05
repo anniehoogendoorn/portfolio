@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <title>Annie's Portfolio</title>
+  <script src="lib/angular.js"></script>
+  <script src="lib/angular-ui-router.js"></script>
+  <script src="app.js"></script>
+  <!-- <script src="controllers/CoursesController.js"></script>
+  <script src="controllers/StudentsController.js"></script>
+  <script src="controllers/HeadersController.js"></script>
+  <script src="services/CoursesFactory.js"></script>
+  <script src="services/UtilitiesFactory.js"></script>
+  <script src="directives/myDirectives.js"></script> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
+
+</head>
+<body>
+  <div ui-view="header"></div>
+  <div ui-view="home-banner"></div>
+  <div ui-view="footer"></div>
+</body>
+</html>
